@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { MovieContext } from "../context";
 
 const Search = () => {
-  const { query, setQuery,isError , setIsError } = useContext(MovieContext);
+  const { setQuery,isError } = useContext(MovieContext);
   return (
     <>
       <section className="search-section">

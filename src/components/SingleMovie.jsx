@@ -20,7 +20,7 @@ const SingleMovie = () => {
 
   useEffect(() => {
     getMovie();
-  }, [id]);
+  },[]);
 
   // styling-objects
   const styleObjPara = {fontSize: "16px"};
